@@ -3,4 +3,4 @@
 * Anish
 * Binisha
 * Anmol
-* Bijay
+* Bijay <bijayabiral0021@gmail.com>
