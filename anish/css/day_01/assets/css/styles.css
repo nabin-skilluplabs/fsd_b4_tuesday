@@ -1,0 +1,127 @@
+/*
+Author: Anish
+Email: bouchastha58@gmail.com
+Last Updated: 20th August 2024
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    
+}
+
+body{
+    background-color: red;
+    border: 5px solid black;
+}
+
+
+/* START COMMON STYLES*/
+h1{
+    color: blue;
+}
+
+button{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+
+}
+
+button:hover{
+    background-color: blueviolet;
+    color: wheat;
+}
+
+input:focus{
+    background-color: gray;
+}
+/* END COMMON STYLES */
+
+h3.fancy-text{
+    color: green;
+    font-size: 15px;
+}
+
+#large-heading{
+    font-size: 60px;
+}
+
+input[type="password"], input[type="email"]{
+    color: red;
+    border-radius: 30px;
+}
+
+h3{
+    font-style: italic;
+}
+
+form{
+    border: 1px solid #ddd;
+    margin: 15px;
+    padding: 15px;
+}
+
+label{
+    display: block;
+}
+
+input{
+    font-size: 18px;
+    padding:5px;
+    margin-bottom: 10px;
+}
+
+h2:not(.normal){
+    color:rgb(200, 12, 18);
+    font-size:30px;
+}
+
+button:disabled{
+    background-color: gray;
+}
+button:disabled:hover{
+    background-color: red;
+}
+
+p::first-line{
+    font-weight: bold;
+    font-style: italic;
+}
+
+p::first-letter{
+    font-size: 70px;
+}
+
+p::selection{
+    background-color: pink;
+}
+
+::placeholder{
+    color: green;
+    opacity: 20%;
+}
+
+input[type="password"]::placeholder{
+    color: red;
+    opacity: 100%;
+}
+
+#blue-text{
+    color: blue;
+}
+
+
+
+.red-text{
+    color: red;
+}
+
+a{
+    color: blueviolet !important;
+    font-size: 18px;
+}
+/* using !important should be our last priority.  because it will override everything*/
