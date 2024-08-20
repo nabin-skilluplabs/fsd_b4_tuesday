@@ -1,0 +1,12 @@
+body {
+    background-color: red;
+}
+
+h1 {
+    color: blue;
+}
+
+h2:not(.normal) {
+    font-size: 30px;
+    color: red;
+}
