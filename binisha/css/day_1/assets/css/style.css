@@ -1,4 +1,102 @@
+/*
+Author: Binisha Dahal
+Email: binishadahal35@gmail.com
+Last updated: 20 August 2024
+*/
+*{
+  margin: 0;
+  padding: 0;  
+  font-size: 100%;
+  /* border: 1px solid red; */
+}
+
+body{
+    background-color: red;
+    border: 5px solid black;
+}
+
+/*START COMMON STYLES*/
+h1{
+    color:blue;
+}
+h3{
+    font-style: italic;
+}
+form{
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin:15px;
+}
+label{
+    display: block;
+}
+input{
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+button{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+button:hover{
+    background-color: blueviolet;
+}
+/*END COMMON STYLES*/
+
+h3.fancy-text{
+    color: green;
+    font-style: italic;
+
+}
+#large-heading{
+    font-size: 100px;
+}
+input[type="password"] ,
+input[type="Email"]
+{
+    color: red;
+    border-radius: 20px;
+}
+input:focus{
+    background-color: gray;
+}
 h2{
     font-size: 30px;
     color: red;
+}
+button:disabled:hover{
+   background-color:  gray;
+}
+p::first-line{
+    font-weight: bold;
+    font-style: italic;
+}
+p::first-letter{
+    font-size: 100px;
+}
+p::selection{
+    background-color: chocolate;
+}
+::placeholder{
+    color: green;
+    opacity: 0.5;
+}
+input [type="password"]::placeholder{
+color:red;
+opacity:100%;
+
+}
+a{
+    color: blueviolet !important;
+    font-size: 18px;
+}
+.red-text{
+    color: red;
+}
+#blue-text{
+    color: blue;
 }
