@@ -1,0 +1,13 @@
+body{ 
+    background-color: #EE6C4D;
+    border: 5px solid #FFE8D6
+}
+h1{
+    color:#168AAD;
+
+}
+
+h2:not(.normal) {
+    font-size: 30px;
+    color :#EE6C4D;
+}
