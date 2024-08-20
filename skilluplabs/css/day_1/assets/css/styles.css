@@ -1,12 +1,119 @@
-body {
-    background-color: red;
+/* 
+Author: Skillup Labs
+Email: info@skilluplabs.com.au
+Last updated: 20 August 2024
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
 }
 
+body {
+    background-color: red;
+    border: 5px solid black;
+}
+
+/* START COMMON STYLES */
 h1 {
     color: blue;
+}
+
+h3 {
+    font-style: italic;
+}
+form {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 15px;
+}
+label {
+    display: block;
+}
+input {
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+button {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-weight:600;
+}
+button:hover {
+    background-color: blueviolet;
+}
+/* END COMMON STYLES */
+
+
+h3.fancy-text {
+    color: green;
+    font-style: italic;
+}
+
+#large-heading {
+    font-size: 100px;
+}
+
+input[type="password"],
+input[type="email"]
+{
+    color: red;
+    border-radius: 20px;
+}
+
+input:focus {
+    background-color: gray;
 }
 
 h2:not(.normal) {
     font-size: 30px;
     color: red;
+}
+
+button:disabled {
+    background-color: gray;
+}
+button:disabled:hover {
+    background-color: red;
+}
+
+p::first-line{
+  font-weight: bold;
+  font-style: italic;  
+}
+
+p::first-letter{
+    font-size: 100px;
+}
+
+p::selection {
+    background-color: chocolate;
+}
+
+::placeholder {
+    color: green;
+    opacity: 10%;
+}
+
+input[type="password"]::placeholder {
+    color: red;
+    opacity: 100%;
+}
+
+
+#blue-text {
+    color: blue;
+}
+
+.red-text {
+    color: red;
+}
+
+a {
+    color: blueviolet !important;
+    font-size: 18px;
 }
