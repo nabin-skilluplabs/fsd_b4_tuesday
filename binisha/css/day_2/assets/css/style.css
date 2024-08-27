@@ -70,10 +70,10 @@ h2:hover{
     background-color: black;
     padding: 15px;
     padding-top: 800px;
-    background-image: url(https://www.skilluplabs.com.au/bg_gray_logo_horizontal.png),url('../css/images/download.jpeg');
-    background-size: 289px 96px, cover;
+    background-image: linear-gradient(90deg, rgba(2,0,36,0.5) 0%, rgba(61,61,186,0.5) 35%, rgba(0,212,255,0.5) 100%), url(https://www.skilluplabs.com.au/bg_gray_logo_horizontal.png),url('../css/images/download.jpeg');
+    background-size: cover, 289px 96px, cover;
     background-repeat: no-repeat;
-    background-position: center, center bottom;
+    background-position: center, center, center bottom;
 }
 .bg-box p{
     color:white;
