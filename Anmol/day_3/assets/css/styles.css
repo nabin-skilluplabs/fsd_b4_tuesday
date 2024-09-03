@@ -1,0 +1,178 @@
+body {
+    background-color: azure;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: azure;
+}
+
+.box-1.vbox-1:hover {
+    display: none;
+
+}
+ 
+.box-2 {
+    display: inline;
+}
+.box {
+    background-color:white;
+    padding:10px;
+    border-radius:10px;
+    margin:10px;
+}
+
+.vbox-1:hover {
+    visibility: hidden;
+
+}
+
+.visible {
+    visibility: visible;
+}
+.hidden-row {
+    visibility: collapse;
+}
+.inline-box {
+    display: inline;
+}
+
+.intro-box {
+    width: 500px;
+    height: 300px;
+    background-color: rgb(255, 0, 0);
+    overflow-y: auto;
+    padding: 15px;
+    margin: 25px;;
+
+}
+.box-model {
+    background-color: blue;
+    border:  2px solid black;
+    padding: 25px;
+    margin: 25px;
+}
+
+.box-size{
+    max-width:300px;
+    min-width: 250px;
+    width: 50vh;
+    height:50px;
+    border: 1px solid red;
+
+}
+.box-parent {
+    border: 1px solid red;
+   padding: 25px;
+    font-size: 5px;
+
+}
+
+.box-child {
+   border: 1px solid green;
+    width: 10em;
+    height:10em;
+
+}
+.box-grand-parent {
+    font-size:100px;
+}
+.box-rem{
+    width: 1rem;
+    height: 1rem;
+    background-color:green;
+    
+
+
+}
+
+.box-rem-parent {
+    font-size: 100px;
+}
+
+
+.box-magrin {
+    background-color:blue;
+    color:white;
+    padding:10px;
+    margin: 20px 10px 5px 8px;
+    margin-top:50px;
+
+}
+
+.box-border {
+    width: 200px;
+    height: 200px;
+    border: 5px dashed #000;
+    border-width: 10px;
+    border-top-color: blueviolet;
+    border-radius:50%;
+}
+ .box-sizing {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    color: white;
+    padding: 25px;
+    box-sizing: border-box;
+    border:5px solid red;
+
+ }
+  .box-static {
+    padding:20px;
+    background-color:red;
+
+}
+  .box-static h4 {
+    left: 20px;
+    top: 50px;
+
+
+  }
+  .box-relative {
+    padding: 20px;
+    background-color: green;
+  }
+
+  .box-relative h4 {
+    position:relative;
+    left: -20px;
+    top: 50px;
+
+  }
+  .box-absolute {
+    padding:20px;
+    background-color: blueviolet;
+    position:relative
+    z-index: 6px;
+
+  }
+
+  .box-absolute h4 {
+    padding: relative;
+    left: 20px;
+    top:50px;
+  }
+
+  .box-fixed {
+    position: fixed;
+    right:20px;
+    bottom: 20px;
+    background-color: darkblue;
+    color: white;
+    padding: 0 20px;
+    z-index:99;
+
+  }
+.box-sticky {
+    width: 100%;
+    padding: 20px;
+    box-sizing:border-box;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+    position: sticky;
+    top: 10;
+    z-index:10px;
+}
