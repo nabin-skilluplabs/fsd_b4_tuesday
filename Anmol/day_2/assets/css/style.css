@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@font-face {
+    font-family: Mija;
+    src: url('..fonts/mija_Bold_webfont-subset_v2.woff2');
+   
+}
+@font-face {
+    font-family: Elena;
+    src: url('..fonts/Elena_Bold_webfont-subset_v2.woff2');
+    font-weight:normal;
+   
+}
+@font-face {
+    font-family: Elena;
+    src: url('..fonts/Elena_Bold_webfont-subset_v2.woff2');
+    font-weight:bold;
+    font: size 18px;
+   
+}
+body{
+    background-color: #ffffff;
+    font-family:"Inter", sans-serif;
+}
+h1{
+    font-family:Mija;
+    font: size 50px;
+    text-decoration:underline;
+    text-shadow:5px 5px 20px rgba(255,0,0,0.5);
+    text-transform: capitalize;
+    color: #000000;
+    
+   
+}
+h2{
+    font-family: Mija;
+   font-size: 37.2px;
+  
+}
+ h2:hover{
+    color:rgba(211, 58,44);
+ }
+
+p{
+    font-family:Elena;
+    font-weight:bold;
+    line: height 1.6em;
+    letter-spacing:5px;
+    word: spacing 10px;
+}
+p.intro{
+    font-weight:bold;
+    color: rgb(0, 255, 200);
+}
+h3{
+  font-weight:normal;
+  font-style: italic;
+  font: size 20px;
+    
+   
+}
+: root {
+    --primary-heading-color:rgba(211, 58,44);
+    --heading-font: Mija;
+}
+.colorful-title{
+    color: rgb(144, 44, 211) 
+}
+.bg-box {
+    background-color: #0c0b0b;
+    color: white !important;
+}
+.bg-box p {
+    color:white;
+
+}
