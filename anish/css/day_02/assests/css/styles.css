@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@font-face{
+    font-family: Mija;
+    src: url(../fonts/Mija_Bold-webfont-subset-v2.woff2);
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: ElenaRegular;
+    src:url(../fonts/ElenaWebRegular-subset-v2.woff2);
+    font-weight: normal;
+}
+@font-face{
+    font-family: ElenaBold;
+    src:url(../fonts/ElenaWebBold-subset-v2.woff2);
+    font-weight: bold;
+}
+@font-face{
+    font-family: ElenaItalic;
+    src:url(../fonts/ElenaWebRegularItalic-subset-v2.woff2);
+    font-weight: italic;
+}
+
+:root{
+    --primary-heading-color: purple;
+    --heading-font: 'Mija Google';
+    --body-bg-color:rgb(234, 251, 214);
+}
+body{
+    background-color: var(--body-bg-color);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: brown;
+}
+
+h1{
+    font-family: Mija;
+    font-size: 60px;
+    text-decoration:overline;
+    text-shadow: 10px -5px 5px rgba(255, 0, 255, 1);
+    text-transform: capitalize;
+    
+}
+h2{
+    font-family: Mija;
+    font-size:37px;
+}
+h2:hover{
+    color: rgb(211, 58, 44)
+}
+
+p{
+    font-family: ElenaBold;
+    line-height: 1.4em;
+    letter-spacing: 0.1em;
+    word-spacing: 1.3px;
+    color: #000000;
+}
+
+h3{
+    font-family: ElenaRegular;
+}
+p.test{
+    font-family: ElenaItalic;
+    text-align: justify;
+}
+
+h3{
+    font-weight: normal;
+    font-style:italic;
+}
+
+.colorful{
+    color: #0060f0;
+}
+
+.bg-box {
+    background-color: black;
+    padding: 15px;
+    padding-top: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url(../images/bg_gray_logo_horizontal.png), url(../images/adam-kool-ndN00KmbJ1c-unsplash.jpg);
+    background-size: cover, 100px 56px, cover;
+    background-repeat: no-repeat;
+    background-position: center, center bottom;
+}
+
+.bg-box p{
+    color: white;
+}
