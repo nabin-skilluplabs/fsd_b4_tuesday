@@ -1,0 +1,162 @@
+body{
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    background-color: white;
+    padding: 10px;
+    border-radius: 18px;
+    margin: 10px;
+}
+
+.box-1:hover{
+    display: none;
+}
+/* here while hovering the soace that box 1 took shifts and the box 2 came up but it doesnot change anything in visibility. */
+.box-2{
+    display: block;
+}
+.vbox-1:hover{
+    visibility: hidden;
+}
+.visible{
+    visibility: visible;
+}
+
+.hidden-row{
+    visibility: collapse;
+}
+
+.inline-box{
+    display: inline;
+}
+
+.intro-box{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(122, 66, 66);
+    overflow-y: auto;
+    /* overflow-y: scroll; the reason to do this is this brings the vertical scroll bar but best to do auto.*/
+    text-align: justify;
+    padding: 55px;
+    margin: 80px;
+}
+
+.box-model{
+    background-color: aqua;
+    border: 2px solid black;
+    padding: 25px;
+    margin: 25px;
+
+}
+
+.box-sizing{
+    max-width: 300px;
+    min-width: 250px;
+    width: 50vh;
+    height: 10rem;
+    border: 2px dotted red;
+}
+
+.box-parent{
+    border: 1px solid green;
+   
+    padding: 25px;
+    margin: 20px;
+    font-size: 15px;
+}
+
+.box-child{
+    border: 2px solid blue;
+    width: 1.5em;
+    height: 10em;
+}
+
+.box-margin{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: 20px 30px 18px 15px;
+    margin-top: 100px;
+}
+
+.box-border{
+    width: 200px;
+    height: 200px;
+    border: 2px dashed green;
+    border-width: 10px;
+    border-top-color: blueviolet ;
+    border-radius: 50%;
+    /* in order to make perfect circle the width and height must be of same value  and border radius 50%*/
+}
+
+.box-size{
+    background-color: black;
+    color: white;
+   
+    width: 200px;
+    padding: 25px;
+    box-sizing: border-box; /*this is the most important. it takes computed border + padding. doesnot take margin since it is outside.*/
+    border: 5px solid red;
+}
+
+.box-static{
+    padding: 20px;
+    background-color: red;
+
+}
+
+box-static h4{
+    left: 20px;
+    top: 50px;
+}
+
+.box-relative{
+    padding: 20px;
+    background-color: blueviolet;
+}
+
+.box-relative h4{
+    position: relative;
+    left: 30rem;
+    top:40px;
+
+}
+
+.box-absolute{
+    padding: 20px;
+    background-color: aqua;
+    position: relative;
+}
+
+.box-absolute h4{
+    position: absolute; 
+    /* nearest relative element basis ma position change garxa . also it doesn;t take width and heigth given in the css */
+    left: 20px;
+    top: 50px;
+}
+
+.box-fixed{
+    position: fixed;
+    right: 100px;
+    bottom: 20px;
+    background-color: darkblue;
+    color: white;
+    padding: 0 20px;
+    z-index: 99;
+}
+
+.box-sticky{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+
