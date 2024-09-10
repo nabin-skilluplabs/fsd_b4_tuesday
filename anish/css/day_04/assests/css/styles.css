@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+}
+
+.banner{
+    width:100%;
+    /* so in this case before we gave widht 100 vh which caused the horizontal scroll bar and we had to use box sizing to eliminate that but didnot solve the issue. however we could give width 100% and fix it.  */
+    background-color: black;
+    padding: 25px;
+    color: rgba(255,255,255,1);
+    height: calc(100vh/4) + 100px;
+    box-sizing: border-box;
+    /* we need to use box sizing in order to after giving width height and padding border-box will keep the content in the box. te main reason to get the scroll bar is the padding.  */
+}
+
+.clamp-box{
+    font-size: clamp(2em, 3vh, 3em);
+}
+
+.min-box{
+    border: 1px solid red;
+    height: 100px;
+    width: min(500px, 50vw);
+}
+
+.max-box{
+    border: 1px solid red;
+    height: 100px;
+    width: max(500px, 50vw);
+}
+
+.hero{
+    width: min(1200px, 100%);
+    background-color: bisque;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.hero-left, .hero-right{
+    background-color: black;
+    border-radius: 10px;
+    height: 200px;
+    width: calc((100% - 3vw) / 2);
+    color: white;
+    float: left;
+    /* margin: 0 calc(3vw / 4);   here we divided 3vw with 4 in order to get rid of the space the 2 div bloxks are not taking. since we gave -3vw in the width above, we need to divide it left 1 side right 1 side since they are 2 blocks (1+1) + (1+1) that is why we need t divide by 4 and there is already margin for top and bottom which is 0.*/
+    cursor: pointer;
+}
+
+.hero-right{
+    float: right;
+}
+
+/* space selector */
+.list-1 li{
+    border: 1px solid green;
+}
+
+
+/* child selector */
+.list-2 > li{
+    border: 1px solid pink;
+}
+
+/* adjacent child selector */
+.list-3 > li:first-child + li{
+    border: 2px solid violet;
+}
+
+/* general sibiling selector */
+.list-4> li:first-child ~ li{
+    border: 2px solid red;
+}
