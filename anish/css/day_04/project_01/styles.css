@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+body{
+    background-color: #f9EEEE;
+    font-family: "Inter", system-ui;
+    
+}
+section{
+    width: min(90%, 671px);
+    margin: 0 auto;
+    margin-top: calc((100vh - 217px) / 2);
+    /* so here to vertically align the the section in the center of the screen we need to take 100vh and subtract it with the space the text is taking */
+    text-align: center;
+    color: #000000;
+    
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.6em;
+}
