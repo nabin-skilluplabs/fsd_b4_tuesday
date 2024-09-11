@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+.banner {
+    width: 100%;
+    background-color: black;
+    padding: 25px;
+    color: rgba(255, 255, 255, 1);
+    height: calc((100vh / 4) + 100px);
+    box-sizing: border-box;
+}
+
+.clamp-box {
+    font-size: clamp(2em, 3vw, 3em);
+}
+
+.min-box {
+    border: 1px solid black;
+    height: 100px;
+    width: min(500px, 50vw);
+}
+
+.max-box {
+    border: 1px solid black;
+    height: 100px;
+    width: max(500px, 50vw);
+}
+
+.hero {
+    width: min(1200px, 100%);
+    background-color: bisque;
+    height: 200px;
+    margin: 0px auto;
+}
+
+.hero-left,
+.hero-right {
+    background-color: black;
+    border-radius: 15px;
+    height: 200px;
+    width: calc((100% - 3vw) / 2);
+    color: white;
+    float: left;
+    /* margin:0 calc(3vw/4) ; */
+    cursor: pointer;
+}
+
+.hero-right {
+    float: right;
+}
+
+.list-1 li {
+    border: 1px solid green;
+}
+
+.list-2 > li {
+    border: 1px solid blue;
+}
+
+.list-3 > li:first-child + li {
+    border: 1px solid red;
+}
+
+.list-4 > li:first-child ~ li {
+    border: 1px solid purple;
+}
