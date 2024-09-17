@@ -72,7 +72,7 @@ form {
     margin-bottom: 30px;
   }
 
-  form.form-item {
+  form .form-item {
     margin-bottom: 20px;
   }
 form .form-item label {
@@ -96,10 +96,10 @@ form .form-item textarea {
     height: 130px;
 }
 
-form .form-item input[type="submit"] {
-    background-color: var (--primary-color);
-    color: var(-main-text-color);
-    font-size: 20px;
+form .form-action button[type="submit"] {
+    background-color: var(--primary-color);
+    color: var(--main-text-color);
+    font-size:20px;
     text-transform: uppercase;
     border-radius: 10px;
     border: 1px solid var(--primary-color);
@@ -107,7 +107,7 @@ form .form-item input[type="submit"] {
 
 }
 
-form input [ type="submit"]:hover {
+form button[type="submit"]:hover {
     opacity:0.8;
     cursor: pointer;
 }
