@@ -1,0 +1,113 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root  {
+    --primary-color: #ED4545;
+    --main-text-color: #ffffff;
+    --primary-font-family:"Inter", sans-serif;
+
+
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--main-text-color);
+    font-family: var(--primary-font-family);
+    font-size:18px;
+}
+a{
+    color: var(--main-text-color);
+    text-decoration: none;
+
+
+}
+a:hover {
+    text-decoration: underline;
+}
+
+main{
+    width: 1110px;
+    margin: 0 auto;
+    margin-top: calc((100vh - 589px)/2);
+}
+
+.content-col {
+    float: left;
+    width: 555px;
+}
+
+.content-col h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+.content-col h3 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom:20px;
+    line-height:1.2;
+}
+
+.content-col address {
+    line-height:1.6;
+    margin-bottom: 50px;
+}
+.content-col p{
+    line-height:1.6;
+}
+
+
+form {
+    background-color: #ffffff;
+    float: right;
+    width: 492px;
+    padding: 40px;
+    box-sizing:border-box;
+    color: black;
+}
+  form h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  form.form-item {
+    margin-bottom: 20px;
+  }
+form .form-item label {
+    display:block;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+form .form-item input[type="text"],
+form .form-item input[type="email"],
+form .form-item textarea {
+
+border: 1px solid #d1cece;
+width: 100%;
+font-size: 18px;
+font-family: var(--primary-font-family);
+padding: 8px;
+
+}
+form .form-item textarea {
+    height: 130px;
+}
+
+form .form-item input[type="submit"] {
+    background-color: var (--primary-color);
+    color: var(-main-text-color);
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 1px solid var(--primary-color);
+    padding:10px 15px;
+
+}
+
+form input [ type="submit"]:hover {
+    opacity:0.8;
+    cursor: pointer;
+}
