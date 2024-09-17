@@ -34,6 +34,7 @@ main{
 .content-col {
     float: left;
     width: 555px;
+    margin-top: cal((589 - 305) /2);
 }
 
 .content-col h2 {
