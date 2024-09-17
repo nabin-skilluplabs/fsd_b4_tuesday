@@ -112,3 +112,29 @@ form button[type="submit"]:hover {
     opacity:0.8;
     cursor: pointer;
 }
+
+
+/* start css flex*/
+.product-wrap {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50vh;
+    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-end;
+    align-content: center;
+    gap:20px;
+}
+ .product-item {
+    padding:25px;
+    font-size: 50px;
+    color: var(--primary-color);
+    flex-basis: 25%;
+    border: 1px solid var(--primary-color);
+    background-color: #ffffff;
+    box-sizing: border-box;
+ }
+
+
+/*end css flex*/
