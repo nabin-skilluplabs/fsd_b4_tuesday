@@ -92,4 +92,10 @@ p {
     font-size: 9.6rem;
     font-weight: bold;
 }
+.stats div:last-child {
+    order: -1;
+}
+.stats div:nth-child(2) {
+    order: 2;
+}
 /* END INFO */
