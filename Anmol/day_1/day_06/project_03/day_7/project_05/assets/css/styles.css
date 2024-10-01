@@ -1,0 +1,8 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root  {
+    --primary-color: #ED4545;
+    --main-text-color: #ffffff;
+    --primary-font-family:"Inter", sans-serif;
+}
