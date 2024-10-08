@@ -1,0 +1,33 @@
+.main-container{
+    display: inline-flex;/*display: flex; would be the same this is the property for the parent.*/
+    gap: 3em;
+    background-color: beige;
+    flex-direction: row; /* flexbox flex-direction property could be row, row-reverse, column-reverse*/
+    flex-wrap:wrap-reverse;
+
+}
+/* flexbox order  */
+.item{
+    padding: 10px;
+    background-color: aquamarine;
+    border: 4px solid rgba(0,0,0,0.9);
+}
+
+.four{
+    
+
+}
+.one{
+
+}
+.two{
+
+}
+.three, .one{
+    order: -1;
+}
+
+.five{
+
+}
+/* flexbox order end */
