@@ -1,0 +1,146 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+  --primary-color: #ed4545;
+  --main-text-color: #efffff;
+  --primary-font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--main-text-color);
+  font-family: var(--primary-font-family);
+  font-size: 18px;
+}
+
+a {
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  width: 1110px;
+  margin: 0 auto;
+  margin-top: calc((100vh - 512px) / 2);
+  /* here we inspect and according to the screen size my form height was 432 also i got to add padding top and bottom which makes it 432+40+40 = 512  */
+}
+
+.content-col {
+  float: left;
+  width: 555px;
+  margin-top: calc((512px - 353px) / 2);
+}
+
+.content-col h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+
+.content-col h3 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 28px;
+  line-height: 1.2;
+}
+
+.content-col address {
+  line-height: 1.6;
+  margin-bottom: 50px;
+}
+.content-col p {
+  line-height: 2.6;
+}
+
+form {
+  color: black;
+  background-color: #efffff;
+  float: right;
+  width: 492px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+form h3 {
+  font-size: 25px;
+  font-weight: 600px;
+  margin-bottom: 20px;
+}
+
+form .form-item {
+  margin-bottom: 15px;
+}
+
+form .form-item label {
+  display: block;
+  font-size: 15px;
+  font-weight: medium;
+  margin-bottom: 8px;
+}
+
+form .form-item input[type='text'],
+form .form-item input[type='email'],
+form .form-item textarea {
+  border: 1px solid #d1cece;
+  width: 100%;
+  font-size: 18px;
+  font-family: var(--primary-font-family);
+  padding: 8px;
+}
+
+form .form-item textarea {
+  height: 130px;
+}
+
+form .form-action button[type='submit'] {
+  background-color: var(--primary-color);
+  color: var(--main-text-color);
+  font-size: 20px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  border: 1px solid var(--primary-color);
+  padding: 10px 15px;
+}
+
+form .form-action button[type='submit']:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
+
+
+/* start css flex */
+
+
+.product-wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.product-item{
+    padding: 35px;
+    font-size: 50px;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    background-color: white;
+   
+    box-sizing: border-box;
+}
+
+
+
+
+/*end css flex*/
